@@ -1,6 +1,6 @@
 {
-    "name": "ribafs/laravel7-acl",
-    "description": "ACL Implementation to Applications in Laravel 7",
+    "name": "ribafs/laravel6-acl",
+    "description": "ACL Implementation to Applications in Laravel 6",
     "license": "MIT",
     "authors": [
         {
@@ -9,7 +9,7 @@
             "homepage": "https://ribafs.github.io"
         }
     ],
-    "homepage": "https://github.com/ribafs/laravel7-acl",
+    "homepage": "https://github.com/ribafs/laravel6-acl",
     "keywords": ["Laravel", "Acl"],
     "minimum-stability": "dev",
     "require": {
@@ -17,16 +17,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Ribafs\\Laravel7Acl\\": "src/"
+            "Ribafs\\Laravel6Acl\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Ribafs\\Laravel7Acl\\Laravel7AclServiceProvider"
+                "Ribafs\\Laravel6Acl\\Laravel6AclServiceProvider"
             ],
             "aliases": {
-                "Laravel7Acl": "Ribafs\\Laravel7Acl\\Facades\\Laravel7Acl"
+                "Laravel6Acl": "Ribafs\\Laravel6Acl\\Facades\\Laravel6Acl"
             }
         }
     }
