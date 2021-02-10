@@ -17,6 +17,7 @@ composer create-project laravel/laravel="6.*" acl
 cd acl
 composer require laravel/ui "^1.0" --dev
 php artisan ui bootstrap --auth
+npm install && npm run dev
 
 ```
 
