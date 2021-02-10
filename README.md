@@ -11,7 +11,13 @@ Usando roles, permissions, trait, middleware, provider, etc
 ```bash
 laravel new acl --auth
 
+ou
+composer create-project laravel/laravel="6.*" acl
+
 cd acl
+composer require laravel/ui "^1.0" --dev
+php artisan ui bootstrap --auth
+
 ```
 
 ### Criar e configurar o banco
